@@ -1,0 +1,61 @@
+This is BibTeX, Version 0.99d (TeX Live 2024)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: asme2ej.aux
+The style file: asmems4.bst
+Database file #1: asme2e.bib
+Warning--I didn't find a database entry for "asmemanual"
+Warning--I didn't find a database entry for "latex"
+Warning--I didn't find a database entry for "goosens"
+Warning--I didn't find a database entry for "art"
+Warning--I didn't find a database entry for "blt"
+Warning--I didn't find a database entry for "ibk"
+Warning--I didn't find a database entry for "icn"
+Warning--I didn't find a database entry for "ips"
+Warning--I didn't find a database entry for "mts"
+Warning--I didn't find a database entry for "mis"
+Warning--I didn't find a database entry for "pro"
+Warning--I didn't find a database entry for "pts"
+Warning--I didn't find a database entry for "trt"
+Warning--I didn't find a database entry for "upd"
+You've used 11 entries,
+            1983 wiz_defined-function locations,
+            577 strings with 5542 characters,
+and the built_in function-call counts, 3012 in all, are:
+= -- 281
+> -- 89
+< -- 0
++ -- 37
+- -- 26
+* -- 194
+:= -- 410
+add.period$ -- 11
+call.type$ -- 11
+change.case$ -- 11
+chr.to.int$ -- 0
+cite$ -- 11
+duplicate$ -- 167
+empty$ -- 306
+format.name$ -- 26
+if$ -- 731
+int.to.chr$ -- 0
+int.to.str$ -- 11
+missing$ -- 10
+newline$ -- 57
+num.names$ -- 11
+pop$ -- 53
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 114
+stack$ -- 0
+substring$ -- 200
+swap$ -- 79
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 30
+width$ -- 13
+write$ -- 122
+(There were 14 warnings)

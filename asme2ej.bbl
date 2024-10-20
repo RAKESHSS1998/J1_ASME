@@ -1,0 +1,69 @@
+\begin{thebibliography}{10}
+
+\bibitem{Sarath2010}
+Gopi, S., Felix, V.~P., Sebastian, S., Pallayil, V., and Kuselan, S., 2010,
+\newblock ``In-situ non-acoustic noise measurement system for towed hydrophone
+  array,''
+\newblock In 2010 IEEE Instrumentation Measurement Technology Conference
+  Proceedings, pp.~913--916.
+
+\bibitem{Unni2011}
+Unnikrishnan, K.~C., Pallayil, V., Chitre, M.~A., and Kuselan, S., 2011,
+\newblock ``Estimated flow noise levels due to a thin line digital towed
+  array,''
+\newblock In OCEANS 2011 IEEE - Spain, pp.~1--4.
+
+\bibitem{corcos1963}
+Corcos, G., 1963,
+\newblock ``Resolution of pressure in turbulence,''
+\newblock {\em The Journal of the Acoustical Society of America, {\bf 35}}(2),
+  pp.~192--199.
+
+\bibitem{Chase1981}
+{Chase}, D.~M., 1981,
+\newblock {Further modeling of turbulent wall pressure on a cylinder and its
+  scaling with diameter}, Dec.
+
+\bibitem{frendi2020}
+Frendi, A., and Zhang, M., 2020,
+\newblock ``A new turbulent wall-pressure fluctuation model for
+  fluid--structure interaction,''
+\newblock {\em Journal of Vibration and Acoustics, {\bf 142}}(2), p.~021018.
+
+\bibitem{goody2004}
+Goody, M., 2004,
+\newblock ``Empirical spectral model of surface pressure fluctuations,''
+\newblock {\em AIAA journal, {\bf 42}}(9), pp.~1788--1794.
+
+\bibitem{francis2023}
+Francis, R., Ebenezer, D., Bhattacharyya, S., and Sharma, R., 2023,
+\newblock ``Estimation of wavenumber--frequency spectra of wall pressure due to
+  turbulent flow over a flat plate using large-eddy simulation,''
+\newblock {\em Physics of Fluids, {\bf 35}}(6).
+
+\bibitem{carpenter1983}
+Carpenter, A., and Kewley, D., 1983,
+\newblock ``Investigation of low wavenumber turbulent boundary layer pressure
+  fluctuations on long flexible cylinders,''
+\newblock In Eighth Australasian Fluid Mechanics Conference, Vol.~28, 9A.
+
+\bibitem{knight1996}
+Knight, A., 1996,
+\newblock ``Flow noise calculations for extended hydrophones in fluid-and
+  solid-filled towed arrays,''
+\newblock {\em The Journal of the Acoustical Society of America, {\bf 100}}(1),
+  pp.~245--251.
+
+\bibitem{karthik2021}
+Karthik, K., Jeyakumar, S., and Sebastin, J.~S., 2021,
+\newblock ``Numerical prediction of flow noise levels on towed sonar array,''
+\newblock {\em Proceedings of the Institution of Mechanical Engineers, Part M:
+  Journal of Engineering for the Maritime Environment, {\bf 235}}(2),
+  pp.~600--606.
+
+\bibitem{jineesh2013}
+Jineesh, G., and Ebenezer, D.~D., 2013,
+\newblock ``Response of a linear array of hydrophones to flow-induced noise,''
+\newblock In Acoustics, New Delhi - India, pp.~1--6.
+
+\end{thebibliography}
