@@ -66,4 +66,41 @@ Jineesh, G., and Ebenezer, D.~D., 2013,
 \newblock ``Response of a linear array of hydrophones to flow-induced noise,''
 \newblock In Acoustics, New Delhi - India, pp.~1--6.
 
+\bibitem{KUTTANCHANDRIKA2014}
+{Kuttan Chandrika}, U., Pallayil, V., Lim, K.~M., and Chew, C.~H., 2014,
+\newblock ``Flow noise response of a diaphragm based fibre laser hydrophone
+  array,''
+\newblock {\em Ocean Engineering, {\bf 91}}, pp.~235--242.
+
+\bibitem{Huang2020}
+Huang, C., Li, H., and Li, N., 2020,
+\newblock ``Flow noise spectrum analysis for vertical line array during descent
+  in deep water,''
+\newblock {\em Journal of Theoretical and Computational Acoustics, {\bf
+  28}}(04), p.~2050022.
+
+\bibitem{Jordan2014}
+Jordan, S.~A., 2014,
+\newblock ``{On the Axisymmetric Turbulent Boundary Layer Growth Along Long
+  Thin Circular Cylinders},''
+\newblock {\em Journal of Fluids Engineering, {\bf 136}}(5), 03, p.~051202.
+
+\bibitem{Martin2014}
+Sadd, M., 2014,
+\newblock {\em Elasticity: Theory, applications, and numerics, third edition}
+\newblock 01.
+
+\bibitem{achenbach2012}
+Achenbach, J., 2012,
+\newblock {\em Wave propagation in elastic solids}
+\newblock Elsevier.
+
+\bibitem{Rakesh2024}
+Sekharipuram~Sekar, R., Natarajan, G., Kuntikana, P., and Akkoorath~Mana, A.,
+  2024,
+\newblock ``An axisymmetric model for predicting turbulent flow noise in towed
+  sonar arrays,''
+\newblock In 30$^{th}$ International Congress on Sound and Vibration, Amsterdam
+  - Netherlands.
+
 \end{thebibliography}
