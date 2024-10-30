@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.6)  28 OCT 2024 18:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.6)  30 OCT 2024 13:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -452,12 +452,17 @@ Package epstopdf Info: Source file: <figure/Chase,frendi_vs_Unni_comparison.eps
 (epstopdf)                    size: 135757 bytes
 (epstopdf)             Output file: <figure/Chase,frendi_vs_Unni_comparison-eps
 -converted-to.pdf>
-(epstopdf)                    date: 2024-10-28 12:04:13
-(epstopdf)                    size: 22985 bytes
 (epstopdf)             Command: <repstopdf --outfile=figure/Chase,frendi_vs_Unn
 i_comparison-eps-converted-to.pdf figure/Chase,frendi_vs_Unni_comparison.eps>
 (epstopdf)             \includegraphics on input line 208.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(repstopdf --outfile=figure/Chase,frendi_vs_Unni_comparison-eps-conver
+ted-to.pdf figure/Chase,frendi_vs_Unni_comparison.eps)...executed safely (allow
+ed).
+
+Package epstopdf Info: Result file: <figure/Chase,frendi_vs_Unni_comparison-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2024-10-30 13:40:59
+(epstopdf)                    size: 22987 bytes.
 <figure/Chase,frendi_vs_Unni_comparison-eps-converted-to.pdf, id=217, 2312.64pt
  x 1734.48pt>
 File: figure/Chase,frendi_vs_Unni_comparison-eps-converted-to.pdf Graphic file 
@@ -484,13 +489,18 @@ omparison.eps>
 (epstopdf)                    size: 165092 bytes
 (epstopdf)             Output file: <figure/Hybrid_model_Chase_frendi_vs_Unni_c
 omparison-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-10-28 12:52:22
-(epstopdf)                    size: 40576 bytes
 (epstopdf)             Command: <repstopdf --outfile=figure/Hybrid_model_Chase_
 frendi_vs_Unni_comparison-eps-converted-to.pdf figure/Hybrid_model_Chase_frendi
 _vs_Unni_comparison.eps>
 (epstopdf)             \includegraphics on input line 256.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(repstopdf --outfile=figure/Hybrid_model_Chase_frendi_vs_Unni_comparis
+on-eps-converted-to.pdf figure/Hybrid_model_Chase_frendi_vs_Unni_comparison.eps
+)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <figure/Hybrid_model_Chase_frendi_vs_Unni_c
+omparison-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-10-30 13:41:00
+(epstopdf)                    size: 40574 bytes.
 <figure/Hybrid_model_Chase_frendi_vs_Unni_comparison-eps-converted-to.pdf, id=2
 77, 2312.64pt x 1734.48pt>
 File: figure/Hybrid_model_Chase_frendi_vs_Unni_comparison-eps-converted-to.pdf 
@@ -501,17 +511,22 @@ s-converted-to.pdf  used on input line 256.
 (pdftex.def)             Requested size: 224.03743pt x 168.00616pt.
 Package epstopdf Info: Source file: <figure/Chase_hybrid_Frendi_outside_pressur
 e_Spectrum.eps>
-(epstopdf)                    date: 2024-10-28 16:08:42
-(epstopdf)                    size: 168832 bytes
+(epstopdf)                    date: 2024-10-29 10:30:02
+(epstopdf)                    size: 168244 bytes
 (epstopdf)             Output file: <figure/Chase_hybrid_Frendi_outside_pressur
 e_Spectrum-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-10-28 16:09:12
-(epstopdf)                    size: 75104 bytes
 (epstopdf)             Command: <repstopdf --outfile=figure/Chase_hybrid_Frendi
 _outside_pressure_Spectrum-eps-converted-to.pdf figure/Chase_hybrid_Frendi_outs
 ide_pressure_Spectrum.eps>
 (epstopdf)             \includegraphics on input line 262.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(repstopdf --outfile=figure/Chase_hybrid_Frendi_outside_pressure_Spect
+rum-eps-converted-to.pdf figure/Chase_hybrid_Frendi_outside_pressure_Spectrum.e
+ps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <figure/Chase_hybrid_Frendi_outside_pressur
+e_Spectrum-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-10-30 13:41:02
+(epstopdf)                    size: 74285 bytes.
 <figure/Chase_hybrid_Frendi_outside_pressure_Spectrum-eps-converted-to.pdf, id=
 284, 2529.45pt x 1373.13pt>
 File: figure/Chase_hybrid_Frendi_outside_pressure_Spectrum-eps-converted-to.pdf
@@ -548,17 +563,22 @@ pdf> <./figure/Chase_hybrid_Frendi_outside_pressure_Spectrum-eps-converted-to.p
 df>]
 Package epstopdf Info: Source file: <figure/Non_dimensional_plot_of_hybrid_mode
 l.eps>
-(epstopdf)                    date: 2024-10-28 16:05:15
-(epstopdf)                    size: 138602 bytes
+(epstopdf)                    date: 2024-10-29 10:21:24
+(epstopdf)                    size: 138326 bytes
 (epstopdf)             Output file: <figure/Non_dimensional_plot_of_hybrid_mode
 l-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-10-28 16:06:51
-(epstopdf)                    size: 25299 bytes
 (epstopdf)             Command: <repstopdf --outfile=figure/Non_dimensional_plo
 t_of_hybrid_model-eps-converted-to.pdf figure/Non_dimensional_plot_of_hybrid_mo
 del.eps>
 (epstopdf)             \includegraphics on input line 276.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(repstopdf --outfile=figure/Non_dimensional_plot_of_hybrid_model-eps-c
+onverted-to.pdf figure/Non_dimensional_plot_of_hybrid_model.eps)...executed saf
+ely (allowed).
+
+Package epstopdf Info: Result file: <figure/Non_dimensional_plot_of_hybrid_mode
+l-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-10-30 13:41:04
+(epstopdf)                    size: 25120 bytes.
 <figure/Non_dimensional_plot_of_hybrid_model-eps-converted-to.pdf, id=328, 2529
 .45pt x 1373.13pt>
 File: figure/Non_dimensional_plot_of_hybrid_model-eps-converted-to.pdf Graphic 
@@ -579,16 +599,28 @@ Underfull \hbox (badness 6445) in paragraph at lines 287--288
 []\OT1/ptm/m/n/10 This sec-tion de-vel-ops a fully cou-pled three-
  []
 
+Package epstopdf Info: Source file: <figure/Sonar_array_element.eps>
+(epstopdf)                    date: 2024-10-29 09:53:06
+(epstopdf)                    size: 97531 bytes
+(epstopdf)             Output file: <figure/Sonar_array_element-eps-converted-t
+o.pdf>
+(epstopdf)             Command: <repstopdf --outfile=figure/Sonar_array_element
+-eps-converted-to.pdf figure/Sonar_array_element.eps>
+(epstopdf)             \includegraphics on input line 291.
+runsystem(repstopdf --outfile=figure/Sonar_array_element-eps-converted-to.pdf f
+igure/Sonar_array_element.eps)...executed safely (allowed).
 
-
-pdfTeX warning: pdflatex.exe (file ./figure/Sonar_array_element.pdf): PDF inclu
-sion: found PDF version <1.7>, but at most version <1.5> allowed
-<figure/Sonar_array_element.pdf, id=335, 551.05875pt x 280.04625pt>
-File: figure/Sonar_array_element.pdf Graphic file (type pdf)
-<use figure/Sonar_array_element.pdf>
-Package pdftex.def Info: figure/Sonar_array_element.pdf  used on input line 291
-.
-(pdftex.def)             Requested size: 224.03743pt x 113.85396pt.
+Package epstopdf Info: Result file: <figure/Sonar_array_element-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2024-10-30 13:41:06
+(epstopdf)                    size: 32365 bytes.
+<figure/Sonar_array_element-eps-converted-to.pdf, id=335, 2233.34375pt x 1019.8
+1pt>
+File: figure/Sonar_array_element-eps-converted-to.pdf Graphic file (type pdf)
+<use figure/Sonar_array_element-eps-converted-to.pdf>
+Package pdftex.def Info: figure/Sonar_array_element-eps-converted-to.pdf  used 
+on input line 291.
+(pdftex.def)             Requested size: 224.03743pt x 102.29819pt.
 
 
 [6
@@ -596,16 +628,15 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.299 \begin{multline}
-                      \label{Navier equation of motion 3d}
+l.301 \end{multline}
+                    
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.299 \begin{multline}
-                      \label{Navier equation of motion 3d} <./figure/Non_dimens
-ional_plot_of_hybrid_model-eps-converted-to.pdf> <./figure/Sonar_array_element.
-pdf>]
+l.301 \end{multline}
+                     <./figure/Non_dimensional_plot_of_hybrid_model-eps-convert
+ed-to.pdf> <./figure/Sonar_array_element-eps-converted-to.pdf>]
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -841,12 +872,28 @@ Underfull \hbox (badness 1168) in paragraph at lines 739--740
 
 
 
-<figure/polarplot_sin(theta).pdf, id=618, 650.43pt x 578.16pt>
-File: figure/polarplot_sin(theta).pdf Graphic file (type pdf)
-<use figure/polarplot_sin(theta).pdf>
-Package pdftex.def Info: figure/polarplot_sin(theta).pdf  used on input line 77
-3.
-(pdftex.def)             Requested size: 224.03743pt x 199.13899pt.
+Package epstopdf Info: Source file: <figure/polarplot_sin(theta).eps>
+(epstopdf)                    date: 2024-10-30 13:26:24
+(epstopdf)                    size: 151468 bytes
+(epstopdf)             Output file: <figure/polarplot_sin(theta)-eps-converted-
+to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=figure/polarplot_sin(theta
+)-eps-converted-to.pdf figure/polarplot_sin(theta).eps>
+(epstopdf)             \includegraphics on input line 773.
+runsystem(repstopdf --outfile=figure/polarplot_sin(theta)-eps-converted-to.pdf 
+figure/polarplot_sin(theta).eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <figure/polarplot_sin(theta)-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2024-10-30 13:41:08
+(epstopdf)                    size: 24062 bytes.
+<figure/polarplot_sin(theta)-eps-converted-to.pdf, id=620, 2601.72pt x 1951.29p
+t>
+File: figure/polarplot_sin(theta)-eps-converted-to.pdf Graphic file (type pdf)
+<use figure/polarplot_sin(theta)-eps-converted-to.pdf>
+Package pdftex.def Info: figure/polarplot_sin(theta)-eps-converted-to.pdf  used
+ on input line 773.
+(pdftex.def)             Requested size: 224.03743pt x 168.01608pt.
 
 Underfull \hbox (badness 1389) in paragraph at lines 774--774
 []\OT1/phv/m/n/8 Fig. 6. [](a) Ex-ter-nal acous-tic pres-sure field $[]\OT1/cmr
@@ -854,56 +901,126 @@ Underfull \hbox (badness 1389) in paragraph at lines 774--774
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figure/polarplot_cos(theta).pdf, id=633, 650.43pt x 578.16pt>
-File: figure/polarplot_cos(theta).pdf Graphic file (type pdf)
-<use figure/polarplot_cos(theta).pdf>
-Package pdftex.def Info: figure/polarplot_cos(theta).pdf  used on input line 78
-3.
-(pdftex.def)             Requested size: 224.03743pt x 199.13899pt.
+[16
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.779 
+       <./figure/polarplot_sin(theta)-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figure/polarplot_cos(theta).eps>
+(epstopdf)                    date: 2024-10-30 13:27:16
+(epstopdf)                    size: 151332 bytes
+(epstopdf)             Output file: <figure/polarplot_cos(theta)-eps-converted-
+to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=figure/polarplot_cos(theta
+)-eps-converted-to.pdf figure/polarplot_cos(theta).eps>
+(epstopdf)             \includegraphics on input line 783.
+runsystem(repstopdf --outfile=figure/polarplot_cos(theta)-eps-converted-to.pdf 
+figure/polarplot_cos(theta).eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <figure/polarplot_cos(theta)-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2024-10-30 13:41:10
+(epstopdf)                    size: 23959 bytes.
+<figure/polarplot_cos(theta)-eps-converted-to.pdf, id=652, 2601.72pt x 1951.29p
+t>
+File: figure/polarplot_cos(theta)-eps-converted-to.pdf Graphic file (type pdf)
+<use figure/polarplot_cos(theta)-eps-converted-to.pdf>
+Package pdftex.def Info: figure/polarplot_cos(theta)-eps-converted-to.pdf  used
+ on input line 783.
+(pdftex.def)             Requested size: 224.03743pt x 168.01608pt.
 
 Underfull \hbox (badness 1389) in paragraph at lines 784--784
 []\OT1/phv/m/n/8 Fig. 7. [](a) Ex-ter-nal acous-tic pres-sure field $[]\OT1/cmr
 /m/n/10 (\OML/cmm/m/it/10 ^^R; k[]\OT1/cmr/m/n/10 ) =
  []
 
+Package epstopdf Info: Source file: <figure/Comparison_of_turbulent_pressure_sp
+ectrum_of_Hybrid.eps>
+(epstopdf)                    date: 2024-10-29 10:05:28
+(epstopdf)                    size: 124322 bytes
+(epstopdf)             Output file: <figure/Comparison_of_turbulent_pressure_sp
+ectrum_of_Hybrid-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=figure/Comparison_of_turbu
+lent_pressure_spectrum_of_Hybrid-eps-converted-to.pdf figure/Comparison_of_turb
+ulent_pressure_spectrum_of_Hybrid.eps>
+(epstopdf)             \includegraphics on input line 790.
+runsystem(repstopdf --outfile=figure/Comparison_of_turbulent_pressure_spectrum_
+of_Hybrid-eps-converted-to.pdf figure/Comparison_of_turbulent_pressure_spectrum
+_of_Hybrid.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <figure/Comparison_of_turbulent_pressure_sp
+ectrum_of_Hybrid-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-10-30 13:41:11
+(epstopdf)                    size: 13811 bytes.
+<figure/Comparison_of_turbulent_pressure_spectrum_of_Hybrid-eps-converted-to.pd
+f, id=653, 2529.45pt x 1373.13pt>
+File: figure/Comparison_of_turbulent_pressure_spectrum_of_Hybrid-eps-converted-
+to.pdf Graphic file (type pdf)
+<use figure/Comparison_of_turbulent_pressure_spectrum_of_Hybrid-eps-converted-t
+o.pdf>
+Package pdftex.def Info: figure/Comparison_of_turbulent_pressure_spectrum_of_Hy
+brid-eps-converted-to.pdf  used on input line 790.
+(pdftex.def)             Requested size: 224.03743pt x 121.60686pt.
+
+
+Package epstopdf Info: Source file: <figure/Inside_pressure_comparison_3d_and_a
+pprox.eps>
+(epstopdf)                    date: 2024-10-29 10:39:44
+(epstopdf)                    size: 236871 bytes
+(epstopdf)             Output file: <figure/Inside_pressure_comparison_3d_and_a
+pprox-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=figure/Inside_pressure_com
+parison_3d_and_approx-eps-converted-to.pdf figure/Inside_pressure_comparison_3d
+_and_approx.eps>
+(epstopdf)             \includegraphics on input line 838.
+runsystem(repstopdf --outfile=figure/Inside_pressure_comparison_3d_and_approx-e
+ps-converted-to.pdf figure/Inside_pressure_comparison_3d_and_approx.eps)...exec
+uted safely (allowed).
+
+Package epstopdf Info: Result file: <figure/Inside_pressure_comparison_3d_and_a
+pprox-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-10-30 13:41:13
+(epstopdf)                    size: 42563 bytes.
+<figure/Inside_pressure_comparison_3d_and_approx-eps-converted-to.pdf, id=668, 
+2529.45pt x 1373.13pt>
+File: figure/Inside_pressure_comparison_3d_and_approx-eps-converted-to.pdf Grap
+hic file (type pdf)
+<use figure/Inside_pressure_comparison_3d_and_approx-eps-converted-to.pdf>
+Package pdftex.def Info: figure/Inside_pressure_comparison_3d_and_approx-eps-co
+nverted-to.pdf  used on input line 838.
+(pdftex.def)             Requested size: 224.03743pt x 121.60686pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figure/Comparison of turbulent pressure spectrum of Hybrid.pdf, id=634, 2529.4
-5pt x 1445.4pt>
-File: figure/Comparison of turbulent pressure spectrum of Hybrid.pdf Graphic fi
-le (type pdf)
-<use figure/Comparison of turbulent pressure spectrum of Hybrid.pdf>
-Package pdftex.def Info: figure/Comparison of turbulent pressure spectrum of Hy
-brid.pdf  used on input line 790.
-(pdftex.def)             Requested size: 224.03743pt x 128.00722pt.
+Package epstopdf Info: Source file: <figure/Inside_pressure_comparison_3d_and_a
+xi.eps>
+(epstopdf)                    date: 2024-10-29 10:53:02
+(epstopdf)                    size: 225947 bytes
+(epstopdf)             Output file: <figure/Inside_pressure_comparison_3d_and_a
+xi-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=figure/Inside_pressure_com
+parison_3d_and_axi-eps-converted-to.pdf figure/Inside_pressure_comparison_3d_an
+d_axi.eps>
+(epstopdf)             \includegraphics on input line 844.
+runsystem(repstopdf --outfile=figure/Inside_pressure_comparison_3d_and_axi-eps-
+converted-to.pdf figure/Inside_pressure_comparison_3d_and_axi.eps)...executed s
+afely (allowed).
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-
-[16]
-
-<figure/Inside pressure comparison 3d and approx.pdf, id=663, 2529.45pt x 1445.
-4pt>
-File: figure/Inside pressure comparison 3d and approx.pdf Graphic file (type pd
-f)
-<use figure/Inside pressure comparison 3d and approx.pdf>
-Package pdftex.def Info: figure/Inside pressure comparison 3d and approx.pdf  u
-sed on input line 838.
-(pdftex.def)             Requested size: 224.03743pt x 128.00722pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figure/Inside pressure comparison 3d and axi.pdf, id=666, 2529.45pt x 1445.4pt
->
-File: figure/Inside pressure comparison 3d and axi.pdf Graphic file (type pdf)
-<use figure/Inside pressure comparison 3d and axi.pdf>
-Package pdftex.def Info: figure/Inside pressure comparison 3d and axi.pdf  used
- on input line 844.
-(pdftex.def)             Requested size: 224.03743pt x 128.00722pt.
+Package epstopdf Info: Result file: <figure/Inside_pressure_comparison_3d_and_a
+xi-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-10-30 13:41:15
+(epstopdf)                    size: 41850 bytes.
+<figure/Inside_pressure_comparison_3d_and_axi-eps-converted-to.pdf, id=671, 252
+9.45pt x 1373.13pt>
+File: figure/Inside_pressure_comparison_3d_and_axi-eps-converted-to.pdf Graphic
+ file (type pdf)
+<use figure/Inside_pressure_comparison_3d_and_axi-eps-converted-to.pdf>
+Package pdftex.def Info: figure/Inside_pressure_comparison_3d_and_axi-eps-conve
+rted-to.pdf  used on input line 844.
+(pdftex.def)             Requested size: 224.03743pt x 121.60686pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -915,43 +1032,55 @@ Underfull \hbox (badness 1881) in paragraph at lines 849--850
 
 
 [17
-pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.852 \end{equation}
-                    
 pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.852 \end{equation}
-                    
+l.850 \begin{equation}
+                      \label{breathing wavenumber}
 pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.852 \end{equation}
-                    
+l.850 \begin{equation}
+                      \label{breathing wavenumber}
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.852 \end{equation}
-                     <./figure/polarplot_sin(theta).pdf> <./figure/polarplot_co
-s(theta).pdf> <./figure/Comparison of turbulent pressure spectrum of Hybrid.pdf
->]
+l.850 \begin{equation}
+                      \label{breathing wavenumber} <./figure/polarplot_cos(thet
+a)-eps-converted-to.pdf> <./figure/Comparison_of_turbulent_pressure_spectrum_of
+_Hybrid-eps-converted-to.pdf>]
 
-<figure/Flow noise comparison of 3D vs Knight and Jineesh.pdf, id=739, 2529.45p
-t x 1300.86pt>
-File: figure/Flow noise comparison of 3D vs Knight and Jineesh.pdf Graphic file
- (type pdf)
-<use figure/Flow noise comparison of 3D vs Knight and Jineesh.pdf>
-Package pdftex.def Info: figure/Flow noise comparison of 3D vs Knight and Jinee
-sh.pdf  used on input line 865.
-(pdftex.def)             Requested size: 224.03743pt x 115.2065pt.
+Package epstopdf Info: Source file: <figure/Flow_noise_comparison_3D_vs_Knight_
+Jineesh.eps>
+(epstopdf)                    date: 2024-10-29 11:11:22
+(epstopdf)                    size: 95641 bytes
+(epstopdf)             Output file: <figure/Flow_noise_comparison_3D_vs_Knight_
+Jineesh-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=figure/Flow_noise_comparis
+on_3D_vs_Knight_Jineesh-eps-converted-to.pdf figure/Flow_noise_comparison_3D_vs
+_Knight_Jineesh.eps>
+(epstopdf)             \includegraphics on input line 865.
+runsystem(repstopdf --outfile=figure/Flow_noise_comparison_3D_vs_Knight_Jineesh
+-eps-converted-to.pdf figure/Flow_noise_comparison_3D_vs_Knight_Jineesh.eps)...
+executed safely (allowed).
 
-Underfull \vbox (badness 3557) has occurred while \output is active []
+Package epstopdf Info: Result file: <figure/Flow_noise_comparison_3D_vs_Knight_
+Jineesh-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-10-30 13:41:17
+(epstopdf)                    size: 12861 bytes.
+<figure/Flow_noise_comparison_3D_vs_Knight_Jineesh-eps-converted-to.pdf, id=707
+, 2529.45pt x 1373.13pt>
+File: figure/Flow_noise_comparison_3D_vs_Knight_Jineesh-eps-converted-to.pdf Gr
+aphic file (type pdf)
+<use figure/Flow_noise_comparison_3D_vs_Knight_Jineesh-eps-converted-to.pdf>
+Package pdftex.def Info: figure/Flow_noise_comparison_3D_vs_Knight_Jineesh-eps-
+converted-to.pdf  used on input line 865.
+(pdftex.def)             Requested size: 224.03743pt x 121.60686pt.
+
+Underfull \vbox (badness 2096) has occurred while \output is active []
 
 
 
@@ -973,25 +1102,61 @@ as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.879 
-       <./figure/Inside pressure comparison 3d and approx.pdf> <./figure/Inside
- pressure comparison 3d and axi.pdf> <./figure/Flow noise comparison of 3D vs K
-night and Jineesh.pdf>]
-<figure/Comparison_of_flow_noise_3D_different_dia.pdf, id=789, 2529.45pt x 1445
-.4pt>
-File: figure/Comparison_of_flow_noise_3D_different_dia.pdf Graphic file (type p
-df)
-<use figure/Comparison_of_flow_noise_3D_different_dia.pdf>
-Package pdftex.def Info: figure/Comparison_of_flow_noise_3D_different_dia.pdf  
-used on input line 882.
-(pdftex.def)             Requested size: 224.03743pt x 128.00722pt.
-<figure/Comparison_of_flow_noise_3D_Different_speed.pdf, id=790, 2529.45pt x 14
-45.4pt>
-File: figure/Comparison_of_flow_noise_3D_Different_speed.pdf Graphic file (type
- pdf)
-<use figure/Comparison_of_flow_noise_3D_Different_speed.pdf>
-Package pdftex.def Info: figure/Comparison_of_flow_noise_3D_Different_speed.pdf
-  used on input line 889.
-(pdftex.def)             Requested size: 224.03743pt x 128.00722pt.
+       <./figure/Inside_pressure_comparison_3d_and_approx-eps-converted-to.pdf>
+ <./figure/Inside_pressure_comparison_3d_and_axi-eps-converted-to.pdf> <./figur
+e/Flow_noise_comparison_3D_vs_Knight_Jineesh-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figure/Comparison_of_flow_noise_3D_differe
+nt_dia.eps>
+(epstopdf)                    date: 2024-10-30 13:34:02
+(epstopdf)                    size: 95298 bytes
+(epstopdf)             Output file: <figure/Comparison_of_flow_noise_3D_differe
+nt_dia-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=figure/Comparison_of_flow_
+noise_3D_different_dia-eps-converted-to.pdf figure/Comparison_of_flow_noise_3D_
+different_dia.eps>
+(epstopdf)             \includegraphics on input line 882.
+runsystem(repstopdf --outfile=figure/Comparison_of_flow_noise_3D_different_dia-
+eps-converted-to.pdf figure/Comparison_of_flow_noise_3D_different_dia.eps)...ex
+ecuted safely (allowed).
+
+Package epstopdf Info: Result file: <figure/Comparison_of_flow_noise_3D_differe
+nt_dia-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-10-30 13:41:19
+(epstopdf)                    size: 12229 bytes.
+<figure/Comparison_of_flow_noise_3D_different_dia-eps-converted-to.pdf, id=754,
+ 2529.45pt x 1373.13pt>
+File: figure/Comparison_of_flow_noise_3D_different_dia-eps-converted-to.pdf Gra
+phic file (type pdf)
+<use figure/Comparison_of_flow_noise_3D_different_dia-eps-converted-to.pdf>
+Package pdftex.def Info: figure/Comparison_of_flow_noise_3D_different_dia-eps-c
+onverted-to.pdf  used on input line 882.
+(pdftex.def)             Requested size: 224.03743pt x 121.60686pt.
+Package epstopdf Info: Source file: <figure/Comparison_of_flow_noise_3D_Differe
+nt_speed.eps>
+(epstopdf)                    date: 2024-10-30 13:37:06
+(epstopdf)                    size: 96406 bytes
+(epstopdf)             Output file: <figure/Comparison_of_flow_noise_3D_Differe
+nt_speed-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=figure/Comparison_of_flow_
+noise_3D_Different_speed-eps-converted-to.pdf figure/Comparison_of_flow_noise_3
+D_Different_speed.eps>
+(epstopdf)             \includegraphics on input line 889.
+runsystem(repstopdf --outfile=figure/Comparison_of_flow_noise_3D_Different_spee
+d-eps-converted-to.pdf figure/Comparison_of_flow_noise_3D_Different_speed.eps).
+..executed safely (allowed).
+
+Package epstopdf Info: Result file: <figure/Comparison_of_flow_noise_3D_Differe
+nt_speed-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-10-30 13:41:20
+(epstopdf)                    size: 12772 bytes.
+<figure/Comparison_of_flow_noise_3D_Different_speed-eps-converted-to.pdf, id=75
+5, 2529.45pt x 1373.13pt>
+File: figure/Comparison_of_flow_noise_3D_Different_speed-eps-converted-to.pdf G
+raphic file (type pdf)
+<use figure/Comparison_of_flow_noise_3D_Different_speed-eps-converted-to.pdf>
+Package pdftex.def Info: figure/Comparison_of_flow_noise_3D_Different_speed-eps
+-converted-to.pdf  used on input line 889.
+(pdftex.def)             Requested size: 224.03743pt x 121.60686pt.
 
 
 
@@ -1013,9 +1178,9 @@ as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.911 \end{acknowledgment}
-                           <./figure/Comparison_of_flow_noise_3D_different_dia.
-pdf> <./figure/Comparison_of_flow_noise_3D_different_speed.pdf>] (./asme2ej.bbl
-
+                           <./figure/Comparison_of_flow_noise_3D_different_dia-
+eps-converted-to.pdf> <./figure/Comparison_of_flow_noise_3D_Different_speed-eps
+-converted-to.pdf>] (./asme2ej.bbl
 
 )
 
@@ -1033,7 +1198,7 @@ Package rerunfilecheck Info: File `asme2ej.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  11489 strings out of 473600
- 181483 string characters out of 5732738
+ 182046 string characters out of 5732738
  1961894 words of memory out of 5000000
  33999 multiletter control sequences out of 15000+600000
  581597 words of font info for 76 fonts, out of 8000000 for 9000
@@ -1043,25 +1208,22 @@ Here is how much of TeX's memory you used:
 live/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><d:/texlive/2024/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2024/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2024/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi12.pfb><d:/texlive/2024/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi5.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi7.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10
-.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/t
-exlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><d:/texlive/202
-4/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><d:/texlive/2024/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/texlive/2024/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy6.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy7.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.p
-fb><d:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><d:/texlive/
-2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><d:/texlive/2024/texmf-dist
-/fonts/type1/urw/symbol/usyr.pfb><d:/texlive/2024/texmf-dist/fonts/type1/urw/ti
-mes/utmb8a.pfb><d:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><d:
-/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on asme2ej.pdf (20 pages, 990810 bytes).
+ype1/public/amsfonts/cm/cmmi5.pfb><d:/texlive/2024/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi7.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr10.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.p
+fb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/texl
+ive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2024/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><d:/texlive/2024/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy7.pfb><d:/texlive/2024/texmf-dist/fonts/typ
+e1/urw/helvetic/uhvb8a.pfb><d:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic
+/uhvr8a.pfb><d:/texlive/2024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><d:/tex
+live/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><d:/texlive/2024/texmf-di
+st/fonts/type1/urw/times/utmr8a.pfb><d:/texlive/2024/texmf-dist/fonts/type1/urw
+/times/utmri8a.pfb>
+Output written on asme2ej.pdf (20 pages, 597206 bytes).
 PDF statistics:
- 950 PDF objects out of 1000 (max. 8388607)
- 846 compressed objects within 9 object streams
+ 905 PDF objects out of 1000 (max. 8388607)
+ 808 compressed objects within 9 object streams
  221 named destinations out of 1000 (max. 500000)
  298 words of extra memory for PDF output out of 10000 (max. 10000000)
 
