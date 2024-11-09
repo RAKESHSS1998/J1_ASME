@@ -40,6 +40,285 @@
 \usepackage[square,numbers]{natbib}
 
 \begin{document}
+%*************************************************************
+%*************************************************************
+
+Substituting for $\mathbf{U}$ in Eq.~(\ref{Navier equation of motion 3d}) yields,
+\begin{multline}
+    \mu\nabla^{2}(\pmb{\nabla}\phi+\pmb{\nabla}\times\pmb{\psi})+(\lambda+\mu)\pmb{\nabla}\pmb{\nabla}.(\pmb{\nabla}\phi+\pmb{\nabla}\times\pmb{\psi})\\ = \rho_s\frac{\partial^{2}}{\partial t^{2}}(\pmb{\nabla}\phi+\pmb{\nabla}\times\pmb{\psi}).
+\end{multline}
+Rearranging the above equation, the obtained expression is,
+\begin{multline}\label{NaLa simplified eqn}
+    \pmb{\nabla}(\mu\nabla^{2}\phi+(\lambda+\mu)\nabla^{2}\phi-\rho_s\ddot{{\phi}})+\\ \pmb{\nabla}\times(\mu\nabla^{2}\pmb{\psi}-\rho_s\ddot{\pmb{\psi}}) = 0.
+\end{multline}
+Eq.~(\ref{NaLa simplified eqn}) may be separated to two equations each corresponding to the scalar and vector potential fields as,
+\begin{equation*}
+    (\lambda+2\mu)\nabla^{2}\phi-\rho_s\ddot{\phi} = 0 \hspace{1em} \text{and} \hspace{1em} \mu\nabla^{2}\pmb{\psi}-\rho_s\ddot{\pmb{\psi}} = 0.
+\end{equation*}
+The above equations are rearranged as,
+\begin{equation}\label{Scalar potential Wave equation}
+    \nabla^{2}\phi = \frac{1}{C_{L}^{2}}\ddot{\phi},
+\end{equation}
+where, $C_{L}^{2} = \frac{\lambda+2\mu}{\rho_s}$ and
+\begin{equation}\label{Vector potential Wave equation}
+    \nabla^{2}\pmb{\psi} = \frac{1}{C_{T}^{2}}\ddot{\pmb{\psi}},
+\end{equation}
+where, $C_{T}^{2} = \frac{\mu}{\rho_s}$.
+Substituting for $\pmb{\psi} = \psi_r\mathbf{e}_r + \psi_\theta\mathbf{e}_\theta + \psi_z\mathbf{e}_z$ in Eq.~(\ref{Vector potential Wave equation}) results in~\cite{achenbach2012}
+ \begin{equation}\label{Vector equation of r}
+     \nabla^{2}\psi_{r}-\frac{\psi_{r}}{r^{2}}-\frac{2}{r^{2}}\frac{\partial\psi_{\theta}}{\partial\theta} = \frac{1}{C_T^{2}}\frac{\partial^{2}\psi_{r}}{\partial t^{2}},
+ \end{equation}
+  \begin{equation}\label{vector equation of theta}
+     \nabla^{2}\psi_{\theta}-\frac{\psi_{\theta}}{r^{2}}-\frac{2}{r^{2}}\frac{\partial\psi_{r}}{\partial\theta} = \frac{1}{C_T^{2}}\frac{\partial^{2}\psi_{\theta}}{\partial t^{2}},
+ \end{equation}
+ and
+ \begin{equation}\label{vector equation of z}
+     \nabla^{2}\psi_{z}= \frac{1}{C_T^{2}}\frac{\partial^{2}\psi_{z}}{\partial t^{2}}.
+ \end{equation}
+The following subsections discuss the solution of the governing differential equations for the scalar potential function (Eq.~(\ref{Scalar potential Wave equation})) and the vector potential functions (Eqs.~(\ref{Vector equation of r}) - (\ref{vector equation of z})).
+
+ \subsubsection{The scalar potential function $\phi$}
+ A plane wave propagating in the positive $z$ direction can be written in the form
+ \begin{equation}\label{Scalar potential Variable separable equation}
+    \phi(r,\theta,z,t) = \Phi(r)\Theta(\theta)\mathbf{e}^{i(k_{z}z-\omega t)}.   
+ \end{equation}
+Subtituting Eq.~(\ref{Scalar potential Variable separable equation}) in  Eq.~(\ref{Scalar potential Wave equation}) and simplifying gives,
+\begin{multline}
+    \frac{r^{2}}{\Phi(r)}\frac{\partial^{2} \Phi(r)}{\partial r^{2}} + \frac{r}{\Phi(r)}\frac{\partial \Phi(r)}{\partial r} + r^2\bigg(\frac{\omega^{2}}{C_{L}^{2}}-k_{z}^{2}\bigg)\\ = -\frac{1}{\Theta(\theta)}\frac{\partial^{2} \Theta(\theta)}{\partial \theta^{2}}.
+\end{multline}
+The above equation is satisfied only if both the left and the right hand sides are equal to a constant, say $n^{2}$. Thus, the differential equations governing $\Phi(r)$ and $\Theta(\theta)$ can be separated as 
+\begin{equation}\label{first part phi}
+    \frac{\partial^{2} \Phi(r)}{\partial r^{2}} + \frac{1}{r}\frac{\partial \Phi(r)}{\partial r} + \left(\frac{\omega^{2}}{C_{L}^{2}}-k_{z}^{2} - \frac{n^{2}}{r^{2}}\right)\Phi(r) = 0
+\end{equation}
+and
+\begin{equation}\label{second part phi}
+    \frac{\partial^{2} \Theta(\theta)}{\partial \theta^{2}} + n^{2}\Theta(\theta) = 0.
+\end{equation}
+Eq.~(\ref{first part phi}) can be further simplified to 
+\begin{equation}\label{bessel form scalar potential}
+    \frac{d^{2}\Phi}{dr^{2}} + \frac{1}{r}\frac{d\Phi}{dr} + \left(\beta_1^{2} - \frac{n^{2}}{r^{2}}\right)\Phi = 0,
+\end{equation}
+where $\beta_1^{2} = \frac{\omega^{2}}{C_{L}^{2}} - k_z^{2}$. The solution of Eq.~(\ref{bessel form scalar potential}) is given by
+\begin{equation}\label{Phi(R) for phi}
+    \Phi(r) = A_{1}J_{n}(\beta_1 r) + A_{2}Y_{n}(\beta_1 r), 
+\end{equation}
+where $J_{n}$ and $Y_{n}$ are the Bessel function of the first and the second kinds of order $n$ respectively. The solution to Eq.~(\ref{second part phi}) can be derived as,
+\begin{equation}\label{Theta(theta) for phi}
+    \Theta(\theta) = A_{3}\cos(n\theta) + A_{4}\sin(n\theta).
+\end{equation}
+In Eqs.~(\ref{Phi(R) for phi}) and (\ref{Theta(theta) for phi}), $A_1$, $A_2$,$A_3$ and $A_4$ are the unknown constants. Substituting Eq.~(\ref{Phi(R) for phi}) and Eq.~(\ref{Theta(theta) for phi}) in to Eq.~(\ref{Scalar potential Variable separable equation}), the scalar potential function is given by
+\begin{multline}\label{scalar potential function 1}
+    \phi(r,\theta,z,t) = \left[A_{1}J_{n}(\beta_1 r) + A_{2}Y_{n}(\beta_1 r)\right]\times\\ \left[A_{3}\cos(n\theta) + A_{4}\sin(n\theta)\right]\mathbf{e}^{i(k_{z}z-\omega t)}.
+\end{multline}
+\subsubsection{The  vector potential function $\pmb{\psi}$}
+It can be observed from Eqs.~(\ref{Vector equation of r})-(\ref{vector equation of theta}) that, both $\psi_r$ and $\psi_\theta$ are coupled and need to be solved simultaneously. However, Eq~(\ref{vector equation of z}) can be solved independently for $\psi_z$. Let $\psi_r$ and $\psi_\theta$ be of the form
+\begin{equation}\label{Variable separable equation of r}
+    \psi_{r}(r,\theta,z,t) = \Psi_{r}(r)\sin(n\theta)\mathbf{e}^{i(k_{z}z-\omega t)}
+\end{equation}
+and
+\begin{equation}\label{Variable separable equation of theta}
+    \psi_{\theta}(r,\theta,z,t) = \Psi_{\theta}(r)\cos(n\theta)\mathbf{e}^{i(k_{z}z-\omega t)}.
+\end{equation}
+Substituting Eq.~(\ref{Variable separable equation of r}) and Eq.~(\ref{Variable separable equation of theta}) in Eq.~(\ref{Vector equation of r}) and Eq.~(\ref{vector equation of theta}), respectively,
+\begin{multline}\label{Differential equation of r}
+    \frac{d^{2}\Psi_{r}}{dr^{2}} + \frac{1}{r}\frac{d\Psi_{r}}{dr} + \frac{1}{r^{2}}\left(-n^{2}\Psi_{r}+2n\Psi_{\theta}-\Psi_{r}\right)\\ - k_{z}^{2}\Psi_{r} + \frac{\omega^{2}}{C_{T}^{2}}\Psi_{r} = 0
+\end{multline}
+and 
+\begin{multline}\label{Differential equation of theta}
+    \frac{d^{2}\Psi_{\theta}}{dr^{2}} + \frac{1}{r}\frac{d\Psi_{\theta}}{dr} + \frac{1}{r^{2}}\left(-n^{2}\Psi_{\theta}+2n\Psi_{r}-\Psi_{\theta}\right)\\ - k_{z}^{2}\Psi_{\theta} + \frac{\omega^{2}}{C_{T}^{2}}\Psi_{\theta} = 0.
+\end{multline}
+Subtracting Eq.~(\ref{Differential equation of theta}) from Eq.~(\ref{Differential equation of r}),
+
+\begin{multline}
+    \frac{d^{2}(\Psi_{r}-\Psi_\theta)}{dr^{2}} + \frac{1}{r}\frac{d(\Psi_{r}-\Psi_\theta)}{dr}\\ + \frac{1}{r^{2}}\bigg(-n^{2}(\Psi_{r}-\Psi_\theta )+ 2n(\Psi_{\theta}-\Psi_r)-(\Psi_{r}-\Psi_\theta)\bigg)\\ - k_{z}^{2}(\Psi_{r}-\Psi_\theta) + \frac{\omega^{2}}{C_{T}^{2}}(\Psi_{r}-\Psi_\theta) = 0.
+\end{multline}
+Solving,
+\begin{equation}\label{difference of r and theta}
+    \Psi_{r} -\Psi_{\theta} = C_{1}J_{n+1}(\beta_2 r) + C_{2}Y_{n+1}(\beta_2 r),
+\end{equation}
+where $\beta_2^{2} = \frac{\omega^{2}}{C_{T}^{2}} - k_z^{2}$, $C_1$ and $C_2$ are unknown constants.
+Adding Eqs.~(\ref{Differential equation of r}) and (\ref{Differential equation of theta}),
+\begin{multline}
+    \frac{d^{2}(\Psi_{r}+\Psi_\theta)}{dr^{2}} + \frac{1}{r}\frac{d(\Psi_{r}+\Psi_\theta)}{dr}\\ + \frac{1}{r^{2}}\bigg(-n^{2}(\Psi_{r}+\Psi_\theta )+ 2n(\Psi_{\theta}+\Psi_r)-(\Psi_{r}+\Psi_\theta)\bigg)\\ - k_{z}^{2}(\Psi_{r}+\Psi_\theta) + \frac{\omega^{2}}{C_{T}^{2}}(\Psi_{r}+\Psi_\theta) = 0.
+\end{multline}
+Solving,
+\begin{equation}\label{sum of r and theta}
+    \Psi_{r} + \Psi_{\theta} = D_{1}J_{n-1}(\beta_2 r) + D_{2}Y_{n-1}(\beta_2 r),
+\end{equation}
+where $D_1$ and $D_2$ are unknown constants. Using Eq.~(\ref{difference of r and theta}) and Eq.~(\ref{sum of r and theta}), $\Psi_{r}$ and $\Psi_{\theta}$ can be obtained as
+\begin{multline}\label{simplified eqn vector r}
+    \Psi_{r} = C_{1}J_{n+1}(\beta_2 r) + C_{2}Y_{n+1}(\beta_2 r)\\ + D_{1}J_{n-1}(\beta_2 r) + D_{2}Y_{n-1}(\beta_2 r) 
+\end{multline}
+and
+\begin{multline}\label{simplified eqn vector theta}
+    \Psi_{\theta} = D_{1}J_{n-1}(\beta_2 r) + D_{2}Y_{n-1}(\beta_2 r)\\- C_{1}J_{n+1}(\beta_2 r) - C_{2}Y_{n+1}(\beta_2 r).
+\end{multline}
+However, for vector potential function, $\pmb{\nabla}.\pmb{\psi} = 0$~\cite{achenbach2012}. This necessitates  $\Psi_{r} = -\Psi_{\theta}$. Therefore, using Eq.~(\ref{sum of r and theta}), $D1 = D2 = 0$. Thus,
+\begin{equation}\label{Partial equation of r}
+   \Psi_{r}(r) = C_{1}J_{n+1}(\beta_2 r) + C_{2}Y_{n+1}(\beta_2 r) 
+\end{equation}
+and 
+\begin{equation}\label{Partial equation of theta}
+    \Psi_{\theta}(\theta) = - C_{1}J_{n+1}(\beta_2 r) - C_{2}Y_{n+1}(\beta_2 r),
+\end{equation}
+Using the above equations, the radial~(Eq.~(\ref{Variable separable equation of r})) and azimuthal (Eq.~(\ref{Variable separable equation of theta})) components of the vector potential function are given by
+\begin{multline}
+    \psi_{r}(r,\theta,z,t) = \left[C_{1}J_{n+1}(\beta_2 r) + C_{2}Y_{n+1}(\beta_2 r)\right]\cdot \\ \sin(n\theta)\mathbf{e}^{i(k_{z}z-\omega t)}
+\end{multline}
+and
+\begin{multline}
+    \psi_{\theta}(r,\theta,z,t) = -\left[C_{1}J_{n+1}(\beta_2 r) + C_{2}Y_{n+1}(\beta_2 r)\right]\cdot \\ \cos(n\theta)\mathbf{e}^{i(k_{z}z-\omega t)}.
+\end{multline}
+The solution of the vector potential $\psi_{z}$ is similar to the solution of the scalar potential (Eq.~(\ref{scalar potential function 1})) which can be derived as,
+\begin{multline}
+   \psi_{z}(r,\theta,z,t) = \left[B_{1}J_{n}(\beta_2 r) + B_{2}Y_{n}(\beta_2r)\right]\cdot \\ \left[B_{3}\cos(n\theta) + B_{4}\sin(n\theta)\right]\mathbf{e}^{i(k_{z}z-\omega t)},
+\end{multline}
+
+%****************************************************************
+%***************************************************************
+
+
+Substituting for the scalar (Eq.~(\ref{Scalar potential equation})) and the vector potential (Eqs.~(\ref{Vector potential equation r}) - (\ref{Vector potential equation z})) functions,
+\begin{multline}
+    W_e(r,\theta,z,t) = \mathbf{e}^{i(k_{z}z-\omega t)}\bigg\{\frac{1}{r}[r\beta_1 J_0(r\beta_1)\cos(\theta)\\ - J_1(r\beta_1)(\cos(\theta) + r\beta_1)]E_1\\ + \frac{1}{r}\sin(\theta)[r\beta_1 J_0(r\beta_1) - J_1(r\beta_1)]E_2\\ + \frac{1}{r}[r\beta_1 Y_0(r\beta_1)\cos(\theta) - Y_1(r\beta_1)(\cos(\theta) + r\beta_1)]F_1\\ + \frac{1}{r}\sin(\theta)[r\beta_1 Y_0(r\beta_1) - Y_1(r\beta_1)]F_2\\ + ik_z[J_1(r\beta_2) + J_2(r\beta_2)\cos(\theta)]G_1\\ + ik_z[J_1(r\beta_2) + J_2(r\beta_2)\cos(\theta)]G_2\\ + [\frac{1}{r}J_1(r\beta_2)\cos(\theta)]H_1 + [\frac{1}{r}Y_1(r\beta_2)\cos(\theta)]H_2\\ - [\frac{1}{r}J_1(r\beta_2)\sin(\theta)]I_1 - [\frac{1}{r}Y_1(r\beta_2)\sin(\theta)]I_2 \bigg\},
+\end{multline}
+where, $E_1$, $E_2$, $F_1$, $F_2$, $G_1$, $G_2$, $H_1$, $H_2$, $I_1$ and $I_2$ are unknown constants with $E_1 = A_1A_3$, $E_2 = A_1A_4$, $F_1 = A_2A_3$, $F_2 = A_2A_4$, $G_1 = C_1$, $G_2 = C_2$, $H_1 = B_1B_4$, $H_2 = B_2B_4$, $I_1 = B_1B_3$ and $I_2 = B_2B_3$,
+\begin{multline}
+    \Theta_e(r,\theta,z,t) = \mathbf{e}^{i(k_{z}z-\omega t)}\bigg\{\frac{-1}{r}[J_1(r\beta_1)\sin(\theta)]E_1\\ + \frac{1}{r}[J_1(r\beta_1)\cos(\theta)]E_2 + \frac{-1}{r}[Y_1(r\beta_1)\sin(\theta)]F_1\\ + \frac{1}{r}[Y_1(r\beta_1)\cos(\theta)]F_2 + [ik_zJ_2(r\beta_2)\sin(\theta)]G_1\\ + [ik_zY_2(r\beta_2)\sin(\theta)]G_2\\ - \frac{\beta_2\sin(\theta)}{2}[J_0(r\beta_2)-J_2(r\beta_2)]H_1\\ - \frac{\beta_2\sin(\theta)}{2}[Y_0(r\beta_2)-Y_2(r\beta_2)]H_2\\ + \frac{1}{r}\{-r\beta_2J_0(r\beta_2)\cos(\theta) + J_1(r\beta_2)[r\beta_2+\cos(\theta)]\}I_1\\ + \frac{1}{r}\{-r\beta_2Y_0(r\beta_2)\cos(\theta) + Y_1(r\beta_2)[r\beta_2+\cos(\theta)]\}I_1\bigg\}
+\end{multline}
+and
+\begin{multline}
+    U_e(r,\theta,z,t)\\ = \mathbf{e}^{i(k_{z}z-\omega t)}\bigg\{ik_z[J_{0}(r\beta_1) + J_{1}(r\beta_1)\cos(\theta)]E_1\\ + [ik_zJ_{1}(r\beta_1)\sin(\theta)]E_2 +  ik_z[Y_{0}(r\beta_1) + Y_{1}(r\beta_1)\cos(\theta)]F_1\\ +[ik_zY_{1}(r\beta_1)\sin(\theta)]F_2 
+    - \beta_2[J_{0}(r\beta_2) + J_{1}(r\beta_2)\cos(\theta)]G_1\\ - \beta_2[Y_{0}(r\beta_2) + Y_{1}(r\beta_2)\cos(\theta)]G_2\bigg\}.
+\end{multline}
+The spatio-temporal ($r, \theta, z, t$) displacement is then transformed to the wavenumber-frequency ($r, \theta, k_z, \omega$) domain using the Fourier transform pairs,
+\begin{multline}\label{Forward fourier transform}
+    \hat{G}(r,\theta,k_{z},\omega)\\ = \frac{1}{4\pi^{2}}\int^{\infty}_{-\infty}\int^{\infty}_{-\infty}g(r,\theta,z,t)e^{-i(k_{z}z-\omega t)}dzdt,
+\end{multline}
+and
+\begin{multline}\label{Backward fourier transform}
+    g(r,\theta,z,t)\\ = \int^{\infty}_{-\infty}\int^{\infty}_{-\infty}\hat{G}(r,\theta,k_{z},\omega)\mathbf{e}^{i(k_{z}z-\omega t)}dk_{z}d\omega.
+\end{multline} 
+The transformed displacement components are given below,
+\begin{enumerate}[label=\roman*]
+    \item Radial displacement,
+    \begin{multline}\label{Radial displacement 3d}
+    \hat{W}_{e}(r,\theta,k_z,\omega) =\\ \Bigg\{\frac{-\chi_1}{2}\{2J_1(r\beta_1) + [J_2(r\beta_1)\\ - J_0(r\beta_1)]\cos(\theta)\}\Bigg\}\hat{P}_1(k_z,\omega)\\ + \Bigg\{\frac{\chi_1}{2}[J_0(r\beta_1) - J_2(r\beta1)]\sin(\theta)\Bigg\}\hat{P}_2(k_z,\omega)\\ + \Bigg\{\frac{-\chi_1}{2}\{2Y_1(r\beta_1) + [Y_2(r\beta_1)\\-Y_0(r\beta_1)]\cos(\theta)\}\Bigg\}\hat{Q}_1(k_z,\omega)\\ + \Bigg\{\frac{\chi_1}{2}[Y_0(r\beta_1)-Y_2(r\beta1)]\sin(\theta)\Bigg\}\hat{Q}_2(k_z,\omega)\\ - \Bigg\{\chi_2[J_1(r\beta_2)+J_2(r\beta_2)\cos(\theta)]\Bigg\}\hat{R}_1(k_z,\omega)\\ - \Bigg\{\chi_2[Y_1(r\beta_2) + Y_2(r\beta_2)\cos(\theta)]\Bigg\}\hat{R}_2(k_z,\omega)\\ + \Bigg\{\frac{1}{r}[J_1(r\beta_2)\cos(\theta)]\Bigg\}\hat{S}_1(k_z,\omega)\\ + \Bigg\{\frac{1}{r}[Y_1(r\beta_2)\cos(\theta)]\Bigg\}\hat{S}_2(k_z,\omega)\\ + \Bigg\{\frac{1}{r}[J_1(r\beta_2)\sin(\theta)]\Bigg\}\hat{T}_1(k_z,\omega)\\ + \Bigg\{\frac{1}{r}[Y_1(r\beta_2)\sin(\theta)]\Bigg\}\hat{T}_2(k_z,\omega),
+    \end{multline}
+	
+    where $\hat{P}_1(k_z,\omega)$, $\hat{P}_2(k_z,\omega)$, $\hat{Q}_1(k_z,\omega)$, $\hat{Q}_2(k_z,\omega)$, $\hat{R}_1(k_z,\omega)$, $\hat{R}_2(k_z,\omega)$, $\hat{S}_1(k_z,\omega)$, $\hat{S}_2(k_z,\omega)$, $\hat{T}_1(k_z,\omega)$ and $\hat{T}_2(k_z,\omega)$ are the unknown variables and $\chi_{1} = \frac{\beta_1}{jk_z}$ and $\chi_{2} =\frac{jk_z}{\beta_2}$.
+	
+    \item Azimuthal displacement,
+    \begin{multline}\label{Azimuthal displacement 3d}
+    \hat{\Theta}_e(r,\theta,k_z,\omega) =\\ \Bigg\{\frac{-\chi_1}{r\beta_1}[J_1(r\beta_1)\sin(\theta)]\Bigg\}\hat{P}_1(k_z,\omega)\\ + \Bigg\{\frac{\chi_1}{r\beta_1}[J_1(r\beta_1)\cos(\theta)]\Bigg\}\hat{P}_2(k_z,\omega)\\ + \Bigg\{\frac{-\chi_1}{r\beta_1}[Y_1(r\beta_1)\sin(\theta)]\Bigg\}\hat{Q}_1(k_z,\omega)\\ + \Bigg\{\frac{\chi_1}{r\beta_1}[Y_1(r\beta_1)\cos(\theta)]\Bigg\}\hat{Q}_2(k_z,\omega)\\ - \Bigg\{\chi_2J_2(r\beta_2)\sin(\theta)\Bigg\}\hat{R}_1(k_z,\omega)\\ - \Bigg\{\chi_2Y_2(r\beta_2)\sin(\theta)\Bigg\}\hat{R}_2(k_z,\omega)\\ + \Bigg\{\frac{\sin(\theta)}{r}[J_1(r\beta_2)-r\beta_2J_0(r\beta_2)]\Bigg\}\hat{S}_1(k_z,\omega)\\ + \Bigg\{\frac{\sin(\theta)}{r}[Y_1(r\beta_2)-r\beta_2Y_0(r\beta_2)]\Bigg\}\hat{S}_2(k_z,\omega)\\ + \Bigg\{\beta_2J_0(r\beta_2)\cos(\theta)\\-\frac{1}{r}\{J_1(r\beta_2)*[r\beta_2+\cos(\theta)]\}\Bigg\}\hat{T}_1(k_z,\omega)\\ + \Bigg\{\beta_2Y_0(r\beta_2)\cos(\theta)\\-\frac{1}{r}\{Y_1(r\beta_2)*[r\beta_2+\cos(\theta)]\}\Bigg\}\hat{T}_2(k_z,\omega)
+    \end{multline}
+and
+    \item Axial displacement,
+    \begin{multline}\label{Axial displacement 3d}    
+    \hat{U}_{e}(r,\theta,k_z,\omega) =\\ \bigg\{J_{0}(r\beta_1) + J_{1}(r\beta_1)\cos(\theta)\bigg\}\hat{P}_1(k_z,\omega)\\ + \bigg\{J_{1}(r\beta_1)\sin(\theta)\bigg\}\hat{P}_2(k_z,\omega)\\
+    + \bigg\{Y_{0}(r\beta_1) + Y_{1}(r\beta_1)\cos(\theta)\bigg\}\hat{Q}_1(k_z,\omega)\\ + \bigg\{Y_{1}(r\beta_1)\sin(\theta)\bigg\}\hat{Q}_2(k_z,\omega)\\
+    + \bigg\{J_{0}(r\beta_2) + J_{1}(r\beta_2)\cos(\theta)\bigg\}\hat{R}_1(k_z,\omega)\\ + \bigg\{Y_{0}(r\beta_2) + Y_{1}(r\beta_2)\cos(\theta)\bigg\}\hat{R}_2(k_z,\omega).
+    \end{multline}    
+\end{enumerate}
+The unknown variables in the displacement components, are related to the unknown constants $A_1$, $A_2$, $A_3$, $A_4$, $B_1$, $B_2$, $B_3$, $B_4$, $C_1$ and $C_2$ in the potential functions as,
+\begin{align}\label{P unknown with A}
+    \hat{P}_1(k_z,\omega) = 2\pi i A_1 A_3 k_z\delta(k+k_z)\delta(\omega-\omega_0),\\\hat{P}_2(k_z,\omega) = 2\pi i A_2 A_3 k_z\delta(k+k_z)\delta(\omega-\omega_0),
+\end{align}
+\begin{align}\label{Q unknown with A}
+    \hat{Q}_1(k_z,\omega) = 2\pi i A_1 A_4 k_z\delta(k+k_z)\delta(\omega-\omega_0),\\\hat{Q}_2(k_z,\omega) = 2\pi i A_2 A_4 k_z\delta(k+k_z)\delta(\omega-\omega_0),
+\end{align}
+\begin{align}\label{R unknown with C}
+    \hat{R}_1(k_z,\omega) = -2\pi C_1\beta_1\delta(k+k_z)\delta(\omega-\omega_0),\\\hat{R}_2(k_z,\omega) = -2\pi C_2\beta_1\delta(k+k_z)\delta(\omega-\omega_0),
+\end{align}
+\begin{align}\label{S unknown with B}
+    \hat{S}_1(k_z,\omega) = 2\pi B_1 B_4\delta(k+k_z)\delta(\omega-\omega_0),\\ \hat{S}_2(k_z,\omega) = 2\pi B_2 B_4\delta(k+k_z)\delta(\omega-\omega_0),
+\end{align}
+\begin{align}\label{T unknown with B}
+    \hat{T}_1(k_z,\omega) = -2\pi B_1 B_3\delta(k+k_z)\delta(\omega-\omega_0),\\ \hat{T}_2(k_z,\omega) = -2\pi B_2 B_3\delta(k+k_z)\delta(\omega-\omega_0)\label{T unknown with B2},
+\end{align}
+where $\delta$ is the dirac delta function.~From the above equations (Eqs.~(\ref{P unknown with A})-(\ref{T unknown with B2})), two unknown variables can be expressed in terms of other variables as,
+\begin{multline}\label{relation between constants}
+    \hat{Q}_2(k_z,\omega) = \frac{\hat{P}_2(k_z,\omega) \hat{Q}_1(k_z,\omega)}{\hat{P}_1(k_z,\omega)},\\ \hat{T}_2(k_z,\omega) = \frac{\hat{S}_2(k_z,\omega) \hat{T}_1(k_z,\omega)}{\hat{S}_1(k_z,\omega)}.
+\end{multline}
+From the displacement components derived in this section, there are ten unknown variables, out of which only eight are independent (Eq.~(\ref{relation between constants})). Further, using the displacement components, normal and shear stresses are derived which is discussed in next section. 
+
+
+%******************************************************************
+%*******************************************************************
+
+
+Assuming a plane wave propogation in the $z$ direction and using variable separable form for $p_f$,
+\begin{equation}\label{P in variable separable form 3d}
+    p_{f}(r,\theta,z,t) = R(r)\Theta(\theta) \mathbf{e}^{j(k_{z}z-\omega t)}.
+\end{equation}
+Substituting Eq.~(\ref{P in variable separable form 3d}) in Eq.~(\ref{Acoustic wave equation 3d}), and rearranging gives 
+\begin{equation}
+    \frac{r^2}{R}\frac{\partial^{2}R(r)}{\partial r^{2}} + \frac{r}{R}\frac{\partial R(r)}{\partial r} + \alpha^2 r^2 = -\frac{1}{\Theta}\frac{\partial^2 \Theta}{\partial \theta^2},
+\end{equation}
+where $\alpha^2 = \frac{\omega^{2}}{c_{a}^{2}} - k_{z}^{2}$. Only those solutions are valid for which the left hand side and the right hand sides of the above equation are equal to a positive constant ($n^2$). Therefore,
+\begin{equation}\label{LHS RHS}
+    \frac{r^2}{R}\frac{\partial^{2}R(r)}{\partial r^{2}} + \frac{r}{R}\frac{\partial R(r)}{\partial r} + \alpha^2 r^2 = -\frac{1}{\Theta}\frac{\partial^2 \Theta}{\partial \theta^2} = n^2.
+\end{equation}
+From the above equation, $\Theta(\theta)$ can be obtained by solving
+\begin{equation}\label{theta governing eqn inside fluid}
+    \frac{\partial^2 \Theta}{\partial \theta^2} + n^2\Theta = 0.
+\end{equation}
+A general solution to Eq.~(\ref{theta governing eqn inside fluid}) is,
+\begin{equation}\label{theta equation 3d}
+    \Theta(\theta) = P_{f01} \cos(n \theta) + P_{f02} \sin(n \theta),
+\end{equation}
+where $P_{f01}$ and $P_{f02}$ are unknowns. Similarly from Eq.~(\ref{LHS RHS}), $R(r)$ is governed by,
+\begin{equation}\label{r governing eqn inside fluid}
+    \frac{\partial^{2}R}{\partial r^{2}} + \frac{1}{r}\frac{\partial R}{\partial r} + \bigg(\alpha^2 - \frac{n^2}{r^2}\bigg)R = 0.
+\end{equation}
+The solution to Eq.~(\ref{r governing eqn inside fluid}) is
+\begin{equation}\label{r equation 3d}
+    R(r) = P_{f03} J_n(\alpha r) + P_{f04} Y_n(\alpha r),
+\end{equation}
+where $P_{f03}$ and $P_{f04}$ are unknowns. As $r \rightarrow 0$, $Y_n(\alpha r) \rightarrow -\infty$, the second term on the right hand side must vanish for all valid pressure fields. Therefore, $P_{f04} = 0$. Thus, using Eqs.~(\ref{P in variable separable form 3d}), (\ref{theta equation 3d}) and (\ref{r equation 3d}),
+\begin{multline}\label{P inside 3d untransformed in z,t}
+    p_f(r,\theta,z,t) =  P_{f03} J_n(\alpha r)[P_{f01} \cos(n \theta)\\ + P_{f02} \sin(n \theta)]\mathbf{e}^{j(k_{z}z-\omega t)}
+\end{multline}
+The above equation is valid for $n=0$,$1$,$2$...etc.
+
+
+which are function of the constants $P_{f01}$, $P_{f02}$ and $P_{f03}$. They are related as,
+\begin{equation}
+    \hat{P}_{f1}(k_z,\omega) = 2\pi P_{f03}P_{f01}\delta(k+k_z)\delta(\omega-\omega_0)
+\end{equation}
+and
+\begin{equation}
+    \hat{P}_{f2}(k_z,\omega) = 2\pi P_{f03}P_{f02}\delta(k+k_z)\delta(\omega-\omega_0).
+\end{equation}
+
+%******************************************************************
+%******************************************************************
+
+
+
+
+ The acoustic fluid particle velocity $\mathbf{u}_f$ may be represented as,
+\begin{multline}\label{vel vector 3d}
+    \mathbf{u}_f(r,\theta,z,t) = u_{fr}(r,\theta,z,t)\mathbf{e_r} + u_{f\theta}(r,\theta,z,t)\mathbf{e}_{\pmb{\theta}}\\ + u_{fz}(r,\theta,z,t)\mathbf{e_z},
+\end{multline}
+where $u_{fr}$, $u_{f\theta}$ and $u_{fz}$ are the radial, azimuthal and axial components of the fluid particle velocity respectively. In the above equation, as for the acoustic pressure, a harmonic variation in the form of $\mathbf{e}^{j(k_{z}z-\omega t)}$ is assumed for the particle velocity. Substituting for $\mathbf{u}_f$ (Eq.~(\ref{vel vector 3d})) and transforming to the frequency-wavenumber domain, Eq.~(\ref{Euler's equation}) results
+\begin{multline}\label{equating continuity equation}
+    \frac{\partial \hat{p}_f(r,\theta,k_z,\omega)}{\partial r}\mathbf{e_r} + \frac{1}{r}\frac{\partial \hat{p}_f(r,\theta,k_z,\omega)}{\partial \theta}\mathbf{e}_{\pmb{\theta}}\\ + \frac{\partial \hat{p}_f(r,\theta,k_z,\omega)}{\partial z}\mathbf{e_z} = j\rho\omega \hat{u}_{fr}(r,\theta,k_z,\omega)\mathbf{e_r}\\ + j\rho\omega \hat{u}_{f\theta}(r,\theta,k_z,\omega) \mathbf{e}_{\pmb{\theta}} + j\rho\omega \hat{u}_{fz}(r,\theta,k_z,\omega)\mathbf{e_z}.
+\end{multline}
+
+
+
+
+
+
+%*****************************************************************
+%*******************************************************************
+
+
+
+
+
+
 
 \section{Stress components}\label{stress components appendix}
 In this section, the closed form of the stress equations (see section~\ref{stress components 3d}) are discussed. The normal stress equation is given by Eq.~(\ref{sigma rr 3d}). On taking fourier transform from $z-t$ domain to $k_z-\omega$ domain using Eq.~(\ref{Forward fourier transform}),
